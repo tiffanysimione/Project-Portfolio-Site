@@ -1,0 +1,359 @@
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-ul {
+  display: flex;
+  list-style: none;
+  margin-top: 1em;
+  font-family: "Julius Sans One", sans-serif;
+  position: fixed;
+}
+
+@media only screen and (max-width: 780px) {
+  .nav-ul {
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 0;
+    position: static;
+  }
+}
+
+a {
+  margin: 0.5em;
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 780px) {
+  .a {
+    font-weight: 100;
+  }
+}
+
+.hamburger {
+  cursor: pointer;
+  margin: 10px;
+}
+
+.bar {
+  background-color: #fff;
+  height: 3px;
+  margin: 5px 0;
+  width: 30px;
+}
+
+.menu {
+  background-color: white;
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  padding: 10px;
+}
+
+.menu li a {
+  color: black;
+  text-decoration: none;
+}
+
+.first-page {
+  background-image: url("/Users/tiffany/Downloads/kseniya-lapteva-xw8dKzrjXbk-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+@media only screen and (max-width: 780px) {
+  .first-page {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+  }
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+
+.tiffany {
+  border-left: solid;
+  border-width: 1px;
+  padding-left: 10px;
+  font-family: Quattrocento;
+}
+
+@media only screen and (max-width: 780px) {
+  .tiffany {
+    margin-top: 10%;
+    margin-bottom: 20%;
+  }
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 100;
+  font-family: "Quattrocento";
+}
+
+h3 {
+  font-size: 0.8rem;
+  line-height: 1.2;
+  font-weight: 400;
+  font-family: "Julius Sans One";
+}
+
+@media only screen and (max-width: 780px) {
+  h1 {
+    font-size: 1em;
+    font-weight: 200;
+  }
+}
+
+.get-to-know-tiff {
+  display: flex;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+@media only screen and (max-width: 780px) {
+  .get-to-know-tiff {
+    height: auto;
+    width: auto;
+  }
+}
+
+.Work-experience {
+  border-left: 1px solid #000;
+  padding-left: 10px;
+  max-width: 500px;
+  margin-top: 300px;
+  margin-left: 100px;
+  font-family: "Quattrocento";
+  font-size: 14px;
+  color: #000;
+  line-height: 22px;
+}
+
+@media only screen and (max-width: 780px) {
+  .Work-experience {
+    font-size: 12px;
+    max-width: 400px;
+  }
+}
+
+.resume-bttn-one.btn {
+  font-family: "Quattrocento";
+  background-color: rgba(245, 245, 245, 0.35);
+}
+
+.resume-text {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.job-description {
+  margin-left: 50px;
+  max-width: 480px;
+  font-family: "Quattrocento";
+  font-size: 12px;
+  color: #000;
+  line-height: 20px;
+}
+
+@media only screen (max-width: 800px) {
+  .job-descriptio {
+    margin-left: 30px;
+    max-width: 600px;
+    font-size: 10px;
+    line-height: 18px;
+  }
+}
+
+h2 {
+  font-family: "Quattrocento";
+  font-weight: 300;
+}
+
+.projects {
+  background-color: rgb(247, 247, 247);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.box-in-projects {
+  max-height: 170px;
+  max-width: 500px;
+  font-family: "Quattrocento";
+  font-size: 20px;
+  color: #000;
+  line-height: auto;
+  font-family: "Julius Sans One", sans-serif;
+  border-right: 1px solid #000;
+  float: right;
+  margin-right: 300px;
+  margin-top: 300px;
+}
+
+.right-box {
+  padding-top: 80px;
+  padding-left: 150px;
+}
+
+#list-style {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 18px;
+  margin-left: 100px;
+  margin-top: 10px;
+  line-height: 18px;
+}
+
+@media screen and (max-width: 780px) {
+  .projects {
+    height: auto;
+  }
+
+  .box-in-projects {
+    max-height: none;
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 20px;
+    border-right: none;
+    float: none;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .right-box {
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+
+  #list-style {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: none;
+    line-height: 18px;
+  }
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-wrapper {
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Julius Sans One", sans-serif;
+}
+.slider {
+  height: 50px;
+  padding-left: 15px;
+  padding-top: 20px;
+  overflow: hidden;
+}
+.slider div {
+  color: black;
+  height: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.slider-text1 {
+  animation: slide 5s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    margin-top: -300px;
+  }
+  5% {
+    margin-top: -200px;
+  }
+  33% {
+    margin-top: -200px;
+  }
+  38% {
+    margin-top: -100px;
+  }
+  66% {
+    margin-top: -100px;
+  }
+  71% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+.day {
+  background: #eee7e1;
+  color: black;
+}
+
+.dark {
+  background: rgba(0, 0, 0, 0.5);
+  color: #eee7e1;
+}
+
+#night-mode {
+  position: fixed;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: transparent;
+}
+
+.night-mode {
+  font-size: 5rem;
+  width: 100%;
+  background-color: transparent;
+}
+
+#hello {
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 14vw;
+  line-height: 1em;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0px;
+  text-transform: none;
+}
+a2 {
+  border-style: none none solid;
+  border-width: 1px;
+  border-color: #c69e91 #c69e91 #ece7e1;
+  color: black;
+}
+.the-end {
+  border-style: none none solid;
+  border-width: 1px;
+  border-color: #c69e91 #c69e91 #ece7e1;
+  color: black;
+  font-family: "Julius Sans One", sans-serif;
+}
