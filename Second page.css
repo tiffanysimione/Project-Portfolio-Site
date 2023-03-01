@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+.images {
+  width: 80%;
+  padding: 10px;
+}
+.images img {
+  width: 100%;
+  display: none;
+}
+.side-button {
+  align-self: center;
+  background: gainsboro;
+  padding: 10px;
+  text-align: center;
+}
+
+.images img:first-of-type {
+  display: block;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .image-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .images {
+    width: 90%;
+    padding: 10px;
+  }
+  .images img {
+    width: 70%;
+    margin: 0 auto;
+    display: none;
+  }
+  .images img:first-of-type {
+    display: block;
+  }
+}
