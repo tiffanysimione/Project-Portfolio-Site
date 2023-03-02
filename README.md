@@ -1,6 +1,9 @@
 # Project-Portfolio-Site
-Project #1: Your Portfolio Sit
+Project #1: Your Portfolio Site
 Technologies used: CSS, HTML, Flexbox, jQuery, JavaScript
+
+For this project, I wanted to push myself to try new things with my limited knowledge; thus far, I wanted a website that represented myself and my career experience. My goal was to make a website that I could someday build off of for my actual portfolio. I decided to use a more simple theme to highlight my work experience. I found inspiration from multiple places and enjoyed making this portfolio. I hope you like it! 
+
 
 Sources...
 Hamburger Icon:
