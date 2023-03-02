@@ -27,9 +27,12 @@ Challenges/ Thinks to work on:
 -I did not plan out what I wanted in detail which let to messy and not dry code
 -I struggled getting the layout I wanted initally on smaller screens which resulted in me needing to chane my layout
 -I would like to make a different looking carsoul but I need to brush up on my jquery for that
+-Really getting a perfect understanding of flexbox
 
 
-3 points of functionality: Please see the sources above that allowed me to create some of these functionalities 
+3 points of functionality:
+Please see the sources above that allowed me to create some of these functionalities...
+
 I did not copy any code , but they were used as a reference to guide me in building them. 
 1.The Hamburger Icon
 This code adds a clickable button (the "hamburger" element) that toggles the visibility of a menu when clicked.
@@ -44,3 +47,5 @@ The code adds two event listeners. One listener is added to an element with the 
 
 
 There are no special install instructions for this site.
+
+Link to website:https://main--tiffany-simione.netlify.app/
