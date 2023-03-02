@@ -35,7 +35,7 @@ I did not copy any code , but they were used as a reference to guide me in build
 This code adds a clickable button (the "hamburger" element) that toggles the visibility of a menu when clicked.
 
 2.The Carousel
-Was made referencing the corgi lab  
+Was made referencing the corgi lab:
 
 3.Dark mode
 This code creates a button  "switch" element) that toggles the appearance of the webpage between  light mode and a dark mode when clicked.
